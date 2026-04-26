@@ -2,6 +2,10 @@
 
 ## System Architecture
 
+
+<img width="944" height="970" alt="image" src="https://github.com/user-attachments/assets/e158dfd7-de9f-4dc4-8fa9-720914c10223" />
+
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    Gradio UI (HF Spaces)                        │
@@ -109,7 +113,7 @@ For each gap:
 
 | Component | Technology | Reason |
 |-----------|-----------|--------|
-| LLM | Groq + Llama 3 70B | Free tier, fast inference (300 tok/s) |
+| LLM | Groq + llama-3.3-70b-versatile| Free tier, fast inference (300 tok/s) |
 | Agent Framework | LangGraph + LangChain | State machine, structured prompting |
 | UI | Gradio 4.x | HF Spaces native, fast prototyping |
 | PDF | ReportLab | Professional output, free |
@@ -117,7 +121,7 @@ For each gap:
 | Storage | JSON files | Simple, portable, zero infra |
 | Deployment | Hugging Face Spaces | Free hosting |
 
-## Free Tools Only ✅
+## Free Tools Only 
 - Groq API — free tier (generous limits)
 - Llama 3 70B — open-source Meta model
 - LangGraph — open-source (MIT)
