@@ -11,7 +11,7 @@ SkillSense AI is a conversational AI agent that takes a Job Description and a ca
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/rutuk2/SkillSense-26)
 
-**Demo Video:** [YouTube Link](#) *(3–5 min walkthrough)*
+**Demo Video:** [loom::https://www.loom.com/share/7b98a4ffab634075ab9f7c892c9e2ef3](#) *(3–5 min walkthrough)*
 
 ---
 
@@ -230,4 +230,4 @@ MIT License — free to use, modify, deploy.
 
 ---
 
-*Built with ❤️ using Groq + Llama 3 + LangGraph + Gradio*
+*Built with ❤️ using Groq + Llama  + LangGraph + Gradio*
