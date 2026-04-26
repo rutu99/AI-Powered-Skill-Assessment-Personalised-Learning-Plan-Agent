@@ -6,55 +6,6 @@
 <img width="944" height="970" alt="image" src="https://github.com/user-attachments/assets/e158dfd7-de9f-4dc4-8fa9-720914c10223" />
 
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Gradio UI (HF Spaces)                        │
-│  ┌──────────────┐  ┌──────────────────┐  ┌──────────────────┐  │
-│  │  Setup Panel │  │  Chat Interface  │  │  Report Display  │  │
-│  │  - JD Input  │  │  - Q&A Flow      │  │  - Skill Scores  │  │
-│  │  - Resume    │  │  - Real-time     │  │  - Learning Plan │  │
-│  │  - Templates │  │    Responses     │  │  - PDF Download  │  │
-│  └──────┬───────┘  └──────┬───────────┘  └──────────────────┘  │
-│         │                 │                                      │
-└─────────┼─────────────────┼──────────────────────────────────────┘
-          │                 │
-          ▼                 ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                  SkillAssessmentAgent                           │
-│                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │                  Agent State Machine                    │   │
-│  │                                                         │   │
-│  │  INIT ──► EXTRACT_SKILLS ──► ASSESS_SKILL ──► REPORT   │   │
-│  │                                    ▲                    │   │
-│  │                                    │ (loop per skill)   │   │
-│  │                               SCORE_SKILL               │   │
-│  └────────────────────┬────────────────────────────────────┘   │
-│                       │                                         │
-│  ┌────────────────────▼────────────────────────────────────┐   │
-│  │                  LLM Call Router                        │   │
-│  │  - Skill Extraction    (Groq Llama3-70b, JSON mode)     │   │
-│  │  - Question Generation (Groq Llama3-70b, creative)      │   │
-│  │  - Answer Scoring      (Groq Llama3-70b, JSON mode)     │   │
-│  │  - Learning Plan Gen   (Groq Llama3-70b, JSON mode)     │   │
-│  └────────────────────┬────────────────────────────────────┘   │
-│                       │                                         │
-└───────────────────────┼─────────────────────────────────────────┘
-                        │
-          ┌─────────────▼──────────────┐
-          │    Groq API (Free Tier)    │
-          │  Model: llama3-70b-8192    │
-          │  ~6000 tokens/min free     │
-          └────────────────────────────┘
-
-┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
-│  Resume Parser   │    │  AssessmentStore │    │  PDF Generator   │
-│  - PyMuPDF       │    │  - JSON files    │    │  - ReportLab     │
-│  - pdfplumber    │    │  - /tmp storage  │    │  - fpdf2 backup  │
-│  - pypdf (fb)    │    │  - List/Load/Save│    │  - Styled output │
-└──────────────────┘    └──────────────────┘    └──────────────────┘
-```
-
 ## Assessment State Machine
 
 ```
