@@ -9,7 +9,7 @@ SkillSense AI is a conversational AI agent that takes a Job Description and a ca
 
 ## 🚀 Live Demo
 
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/YOUR_USERNAME/skillsense-ai)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/rutuk2/SkillSense-26)
 
 **Demo Video:** [YouTube Link](#) *(3–5 min walkthrough)*
 
