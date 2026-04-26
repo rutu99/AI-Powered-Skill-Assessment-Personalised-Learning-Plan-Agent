@@ -1,9 +1,7 @@
-# AI-Powered-Skill-Assessment-Personalised-Learning-Plan-Agent
-SkillSense AI is a conversational AI agent that takes a Job Description and a candidate's resume, assess them in real-time to assess actual proficiency on each required skill, identifies gaps, and generates a personalised learning plan with curated free resources and time estimates.
+# SkillSense AI — Skill Assessment & Personalised Learning Plan AgentSkillSense AI
+This is a conversational AI agent that takes a Job Description and a candidate's resume, assess them in real-time to assess actual proficiency on each required skill, identifies gaps, and generates a personalised learning plan with curated free resources and time estimates.
 
-# 🧠 SkillSense AI — Skill Assessment & Personalised Learning Plan Agent
 
-> *A resume tells you what someone claims to know — not how well they actually know it.*
 
 SkillSense AI is a conversational AI agent that takes a Job Description and a candidate's resume, **interviews them in real-time** to assess actual proficiency on each required skill, identifies gaps, and generates a **personalised learning plan** with curated free resources and time estimates.
 
