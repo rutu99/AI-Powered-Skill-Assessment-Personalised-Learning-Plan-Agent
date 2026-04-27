@@ -1,4 +1,4 @@
-#  SkillSense AI — Architecture & Scoring Logic
+#  KYS(Know Your Skills) — Architecture & Scoring Logic
 
 ## System Architecture
 
@@ -37,13 +37,12 @@
 ### Per-Skill Score (1–10)
 The LLM evaluates the candidate's Q&A answers using this rubric:
 
-| Score | Meaning                                    |
-|-------|--------------------------------------------|
+|Score  | Meaning                                          |
 | 1–3   | Little to no understanding; can't explain basics |
-| 4–5   | Surface-level; has heard of it but can't apply |
+| 4–5   | Surface-level; has heard of it but can't apply   |
 | 6–7   | Practical working knowledge; can use in projects |
-| 8–9   | Strong; understands internals and edge cases |
-| 10    | Expert; can teach, architect, and innovate |
+| 8–9   | Strong; understands internals and edge cases     |
+| 10    | Expert; can teach, architect, and innovate       |
 
 ### Overall Score
 ```
