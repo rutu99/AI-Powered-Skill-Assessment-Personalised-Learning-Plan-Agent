@@ -230,4 +230,4 @@ MIT License — free to use, modify, deploy.
 
 ---
 
-*Built with ❤️ using Groq + Llama  + LangGraph + Gradio*
+*Built with ❤️ using Groq + Llama  + LangGraph + Gradio* built for Catalyst Hackathon by Deccan.ai
