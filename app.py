@@ -1,7 +1,5 @@
 """
-SkillSense AI — app.py
-Gradio 6.x, session-only storage (no login, no persistence).
-Page refresh clears everything.
+SkillSense AI — app.py.
 """
 
 from dotenv import load_dotenv
@@ -18,10 +16,7 @@ from src.report_generator import generate_pdf_report
 from src.storage import AssessmentStorage
 from src.role_templates import ROLE_TEMPLATES
 
-# ── In-memory storage (lives only while server is running) ────
 storage = AssessmentStorage()
-
-# ── Per-session agent registry ────────────────────────────────
 _agents: dict[str, SkillAssessmentAgent] = {}
 
 def get_agent(session_id: str) -> SkillAssessmentAgent:
@@ -29,10 +24,6 @@ def get_agent(session_id: str) -> SkillAssessmentAgent:
         _agents[session_id] = SkillAssessmentAgent()
     return _agents[session_id]
 
-
-# ─────────────────────────────────────────────────────────────
-# Message helpers
-# ─────────────────────────────────────────────────────────────
 
 def bot_msg(text: str) -> dict:
     return {"role": "assistant", "content": text}
