@@ -20,7 +20,7 @@ Required Skills:
 
 ### Input: Resume (Text)
 ```
-PRIYA SHARMA
+Sayali Kamble
 Data Analyst | priya@example.com | LinkedIn: /in/priyasharma
 
 EXPERIENCE
@@ -42,14 +42,14 @@ B.Sc. Statistics — University of Delhi (2022)
 
 ### Assessment Conversation (Sample)
 ```
-Agent: Hi Priya! I'll be assessing 7 skills: SQL, Python, Tableau/Power BI, 
+Agent: Hi Sayali! I'll be assessing 7 skills: SQL, Python, Tableau/Power BI, 
 Statistical Analysis, A/B Testing, BigQuery, Communication.
 Let's start with SQL.
 
 Q1: Describe the most complex SQL query you've written. What business problem 
     did it solve and what techniques did you use?
 
-Priya: I wrote a revenue attribution query joining 5 tables — transactions, 
+Sayali: I wrote a revenue attribution query joining 5 tables — transactions, 
        users, campaigns, products, and regions. Used multiple CTEs to stage 
        intermediate aggregations, then a final query with CASE WHEN for 
        revenue bucketing. It ran on 10M rows and I had to add composite 
@@ -58,7 +58,7 @@ Priya: I wrote a revenue attribution query joining 5 tables — transactions,
 Q2: When would you use a window function instead of GROUP BY? 
     Give a specific example.
 
-Priya: Window functions when I need row-level context alongside aggregates. 
+Sayali: Window functions when I need row-level context alongside aggregates. 
        For example, ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY date) 
        to identify each user's first purchase — GROUP BY would collapse the 
        rows and I'd lose that detail.
@@ -66,7 +66,7 @@ Priya: Window functions when I need row-level context alongside aggregates.
 Q3: Your query on a 50M row table suddenly got slow after a schema migration. 
     Walk me through your debugging process.
 
-Priya: First I'd run EXPLAIN ANALYZE to see the query plan. Check if there's 
+Sayali: First I'd run EXPLAIN ANALYZE to see the query plan. Check if there's 
        a sequential scan where I expect an index scan — migration might have 
        dropped indexes. Then check if statistics are stale (ANALYZE table). 
        Also check if any new columns need indexes or if data distribution 
@@ -80,14 +80,14 @@ debugging methodology with EXPLAIN ANALYZE"]
 Q1 (A/B Testing): How would you design an A/B test to measure whether a 
 new checkout button colour increases conversions?
 
-Priya: I'd split traffic 50/50, run it for at least 2 weeks to account for 
+Sayali: I'd split traffic 50/50, run it for at least 2 weeks to account for 
        weekly patterns. Track conversion rate as primary metric. 
        Probably use a chi-square test... I think.
 
 Q2 (A/B Testing): What sample size would you need and how do you determine 
 when to stop the test?
 
-Priya: Honestly, I usually just look at whether the results seem significant 
+Sayali: Honestly, I usually just look at whether the results seem significant 
        after a few days... I know there's a formula but I'd need to look it up.
 
 [A/B Testing Score: 4/10 — "Understands basic concept but lacks statistical 
@@ -163,6 +163,6 @@ rigour; no mention of power analysis, p-values, or stopping rules"]
       ]
     }
   ],
-  "recommendation": "Priya is a strong candidate. Her SQL and Python skills are genuinely impressive and would take years to develop from scratch. The gaps in A/B testing rigour and BigQuery are both learnable in under 3 weeks given her statistical education and SQL foundation. Recommend a conditional offer with specific 30-day learning milestones: complete the Udacity A/B Testing course and BigQuery lab, with a follow-up technical discussion. Her communication skills and analytical thinking are standout."
+  "recommendation": "Sayali is a strong candidate. Her SQL and Python skills are genuinely impressive and would take years to develop from scratch. The gaps in A/B testing rigour and BigQuery are both learnable in under 3 weeks given her statistical education and SQL foundation. Recommend a conditional offer with specific 30-day learning milestones: complete the Udacity A/B Testing course and BigQuery lab, with a follow-up technical discussion. Her communication skills and analytical thinking are standout."
 }
 ```
