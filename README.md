@@ -204,7 +204,7 @@ All models via **Groq free tier** — no cost.
 
 ## 📊 Scoring System
 
-|-------|-------|---------|
+
 | 1–3 | Beginner | Little real understanding |
 | 4–5 | Aware | Surface-level, can't apply |
 | 6–7 | Proficient | Working knowledge |
