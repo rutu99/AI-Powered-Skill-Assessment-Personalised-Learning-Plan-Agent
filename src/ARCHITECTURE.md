@@ -1,4 +1,4 @@
-# 🏗 SkillSense AI — Architecture & Scoring Logic
+#  SkillSense AI — Architecture & Scoring Logic
 
 ## System Architecture
 
@@ -62,8 +62,7 @@ For each gap:
 
 ## Tech Stack
 
-| Component | Technology | Reason |
-|-----------|-----------|--------|
+
 | LLM | Groq + llama-3.3-70b-versatile| Free tier, fast inference (300 tok/s) |
 | Agent Framework | LangGraph + LangChain | State machine, structured prompting |
 | UI | Gradio 4.x | HF Spaces native, fast prototyping |
