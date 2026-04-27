@@ -69,7 +69,7 @@ def _generate_with_reportlab(report: dict, output_path: str):
     story = []
 
     # Header
-    story.append(Paragraph("SkillSense AI", title_style))
+    story.append(Paragraph("KYS(Know Your Skills)", title_style))
     story.append(Paragraph("Skill Assessment &amp; Learning Plan Report", 
                             ParagraphStyle("Sub", parent=styles["Normal"], fontSize=12,
                                            textColor=CYAN, alignment=TA_CENTER, spaceAfter=8)))
