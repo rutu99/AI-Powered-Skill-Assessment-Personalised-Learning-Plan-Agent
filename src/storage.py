@@ -1,9 +1,3 @@
-"""
-AssessmentStorage — in-memory session storage.
-Data lives only for the current server process.
-Page refresh = new session = history gone.
-No files written to disk.
-"""
 
 import uuid
 from datetime import datetime
