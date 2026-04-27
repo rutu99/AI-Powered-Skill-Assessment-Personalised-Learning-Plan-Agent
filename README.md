@@ -141,17 +141,17 @@ Agent: Hi Sayali ! I'll be assessing: SQL, Python, Tableau, A/B Testing, BigQuer
        Let's begin with SQL.
        Can you describe a complex SQL query you've written — what problem did it solve?
 
-Priya: I wrote a multi-join query to aggregate sales data across 5 tables, 
+Sayali: I wrote a multi-join query to aggregate sales data across 5 tables, 
        including CTEs to stage intermediate results...
 
 Agent: Good. Can you explain when you'd use a window function vs GROUP BY?
 
-Priya: Window functions are for row-level calculations without collapsing rows...
+Sayali: Window functions are for row-level calculations without collapsing rows...
 
 Agent: Final SQL question: You have a 50M row table that's slow on a date filter. 
        How would you diagnose and fix this?
 
-Priya: I'd check if there's an index on the date column, run EXPLAIN ANALYZE...
+Sayali: I'd check if there's an index on the date column, run EXPLAIN ANALYZE...
 
 [Agent internally scores SQL: 8/10]
 
