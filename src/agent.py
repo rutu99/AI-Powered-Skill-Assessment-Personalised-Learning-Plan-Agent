@@ -345,12 +345,10 @@ class SkillAssessmentAgent:
         msgs = [SystemMessage(content="You are a precise AI that always returns valid JSON."),
                 HumanMessage(content=prompt)]
         raw = self.llm.invoke(msgs).content.strip()
-        # Strip markdown fences
         raw = re.sub(r"```(?:json)?", "", raw).strip().rstrip("`").strip()
         try:
             return json.loads(raw)
         except json.JSONDecodeError:
-            # Last resort: extract JSON object
             match = re.search(r"\{.*\}", raw, re.DOTALL)
             if match:
                 return json.loads(match.group())
