@@ -1,9 +1,9 @@
-# SkillSense AI — Skill Assessment & Personalised Learning Plan Agent
+# KYS(Know Your Skills)-AI — Skill Assessment & Personalised Learning Plan Agent
 This is a conversational AI agent that takes a Job Description and a candidate's resume, assess them in real-time to assess actual proficiency on each required skill, identifies gaps, and generates a personalised learning plan with curated free resources and time estimates.
 
 
 
-SkillSense AI is a conversational AI agent that takes a Job Description and a candidate's resume, **interviews them in real-time** to assess actual proficiency on each required skill, identifies gaps, and generates a **personalised learning plan** with curated free resources and time estimates.
+KYS(Know Your Skills)-AI is a conversational AI agent that takes a Job Description and a candidate's resume, **interviews them in real-time** to assess actual proficiency on each required skill, identifies gaps, and generates a **personalised learning plan** with curated free resources and time estimates.
 
 ---
 
