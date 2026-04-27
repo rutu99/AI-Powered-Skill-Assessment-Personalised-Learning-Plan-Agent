@@ -97,7 +97,7 @@ rigour; no mention of power analysis, p-values, or stopping rules"]
 ### Output: Report
 ```json
 {
-  "candidate_name": "Priya Sharma",
+  "candidate_name": "Sayali Kamble",
   "target_role": "Senior Data Analyst",
   "date": "2024-01-15",
   "overall_score": 6.1,
