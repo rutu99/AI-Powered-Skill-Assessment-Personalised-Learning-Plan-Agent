@@ -7,7 +7,7 @@ SkillSense AI is a conversational AI agent that takes a Job Description and a ca
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/rutuk2/SkillSense-26)
 
@@ -15,7 +15,7 @@ SkillSense AI is a conversational AI agent that takes a Job Description and a ca
 
 ---
 
-## ✨ Features
+##  Features
 
 - 🎯 **Conversational Assessment** — Real LLM-driven Q&A, 2–3 questions per skill
 - 📊 **Skill Scoring** — Each skill scored 1–10 with evidence from answers
@@ -130,14 +130,14 @@ A/B testing, Statistical analysis, BigQuery
 
 ### Sample Input: Resume Snippet
 ```
-Priya Sharma | Data Analyst | 2 years experience
+Sayali Kamble | Data Analyst | 2 years experience
 Skills: Python, SQL, Excel, Power BI
 Projects: Sales dashboard in Power BI, customer churn analysis in Python
 ```
 
 ### Sample Assessment Flow
 ```
-Agent: Hi Priya! I'll be assessing: SQL, Python, Tableau, A/B Testing, BigQuery.
+Agent: Hi Sayali ! I'll be assessing: SQL, Python, Tableau, A/B Testing, BigQuery.
        Let's begin with SQL.
        Can you describe a complex SQL query you've written — what problem did it solve?
 
@@ -183,7 +183,7 @@ LEARNING PLAN:
   BigQuery (1 week)
   - Google Cloud Skills Boost: BigQuery free tier labs
 
-RECOMMENDATION: Priya shows genuine strength in SQL and Python, which are 
+RECOMMENDATION: Sayali shows genuine strength in SQL and Python, which are 
 the hardest skills to teach. The gaps in Tableau and BigQuery are learnable 
 in 3–4 weeks given her SQL foundation. Recommend conditional offer with 
 30-day learning targets.
@@ -191,7 +191,7 @@ in 3–4 weeks given her SQL foundation. Recommend conditional offer with
 
 ---
 
-## 🧠 Models Used
+##  Models Used
 
  Skill extraction | llama-3.3-70b-versatile (Groq) | Accurate JSON structured extraction |
  Question generation | llama-3.3-70b-versatile (Groq) | Natural, contextual interview questions |
@@ -202,7 +202,7 @@ All models via **Groq free tier** — no cost.
 
 ---
 
-## 📊 Scoring System
+##  Scoring System
 
 
 | 1–3 | Beginner | Little real understanding |
