@@ -1,6 +1,3 @@
-"""
-PDF Report Generator — produces a formatted assessment report using ReportLab.
-"""
 
 import os
 import tempfile
@@ -9,8 +6,6 @@ from datetime import datetime
 
 def generate_pdf_report(report: dict, record_id: str) -> str:
     """Generate a PDF report and return the file path."""
-    # Use OS-native temp dir (C:/Users/.../AppData/Local/Temp on Windows, /tmp on Linux)
-    # This is required by Gradio 6 — it only serves files from allowed paths
     output_dir = os.path.join(tempfile.gettempdir(), "skillsense_reports")
     os.makedirs(output_dir, exist_ok=True)
     pdf_path = os.path.join(output_dir, f"report_{record_id[:8]}.pdf")
